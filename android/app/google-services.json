@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "421876446722",
+    "firebase_url": "https://fir-9741b-default-rtdb.firebaseio.com",
+    "project_id": "fir-9741b",
+    "storage_bucket": "fir-9741b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421876446722:android:352d3fd369aad97512d91b",
+        "android_client_info": {
+          "package_name": "com.easy_shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421876446722-evsd06dqj0llp6ps63otvo3skulcnqno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.easy_shop",
+            "certificate_hash": "33b9714f65640fbae418f6b0fbdeca3a37692c3d"
+          }
+        },
+        {
+          "client_id": "421876446722-tgo4akocil36dtnoe821nqgthsjpajon.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.easy_shop",
+            "certificate_hash": "52b15c01db24f0312af22921b205e7a43c1ddc26"
+          }
+        },
+        {
+          "client_id": "421876446722-pi0125eap6s0s6npa4bfhp9tdrue9ntf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGGFrl568bZV1nBAqHAL0L51b0A20UPYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421876446722-pi0125eap6s0s6npa4bfhp9tdrue9ntf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "421876446722-5g2r8hu24tb300tnqn04hltqt8gmdc8u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.easyshop"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

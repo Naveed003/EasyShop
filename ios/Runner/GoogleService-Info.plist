@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>421876446722-5g2r8hu24tb300tnqn04hltqt8gmdc8u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.421876446722-5g2r8hu24tb300tnqn04hltqt8gmdc8u</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>421876446722-p3bpvddkn3u0idtovj4m0opr0fe5n572.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBjUrmO5bMap1cOF0KwL-z4OOtWEEC7fTM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>421876446722</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.easyshop</string>
+	<key>PROJECT_ID</key>
+	<string>fir-9741b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-9741b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:421876446722:ios:0a6d25c40173a87112d91b</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-9741b-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

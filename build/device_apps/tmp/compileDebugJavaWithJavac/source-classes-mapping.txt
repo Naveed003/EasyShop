@@ -1,0 +1,15 @@
+fr/g123k/deviceapps/AsyncWork.java
+ fr.g123k.deviceapps.AsyncWork
+fr/g123k/deviceapps/utils/DrawableUtils.java
+ fr.g123k.deviceapps.utils.DrawableUtils
+fr/g123k/deviceapps/InstalledAppsCallback.java
+ fr.g123k.deviceapps.InstalledAppsCallback
+fr/g123k/deviceapps/utils/Base64Utils.java
+ fr.g123k.deviceapps.utils.Base64Utils
+fr/g123k/deviceapps/DeviceAppsPlugin.java
+ fr.g123k.deviceapps.DeviceAppsPlugin
+ fr.g123k.deviceapps.DeviceAppsPlugin$1
+ fr.g123k.deviceapps.DeviceAppsPlugin$1$1
+ fr.g123k.deviceapps.DeviceAppsPlugin$2
+fr/g123k/deviceapps/BuildConfig.java
+ fr.g123k.deviceapps.BuildConfig

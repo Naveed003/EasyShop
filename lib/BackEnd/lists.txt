@@ -1,0 +1,23 @@
+
+decimal comma 
+br
+tr
+fr
+es
+de
+nl
+se
+it
+
+
+decimal point
+ca
+com.mx
+com
+cn
+in
+jp
+sg
+ae
+co.uk
+com.au

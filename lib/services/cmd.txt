@@ -1,0 +1,2 @@
+
+mysqldump --routines -u username -p dbname > dbexport.sql

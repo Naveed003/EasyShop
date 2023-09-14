@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Programming\\FLUTTER\\easy_shop\\build\\android_intent\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne\\values-ne.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\MOHAMED NAVEED\\.gradle\\caches\\transforms-2\\files-2.1\\6e99a24d2413c794483183740b5328fe\\core-1.1.0\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Programming\\FLUTTER\\easy_shop\\build\\android_intent\\intermediates\\res\\merged\\debug\\values-ne\\values-ne.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\MOHAMED NAVEED\\.gradle\\caches\\transforms-2\\files-2.1\\6e99a24d2413c794483183740b5328fe\\core-1.1.0\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

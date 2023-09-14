@@ -1,0 +1,25 @@
+# This is a generated file; do not edit or check into version control.
+android_intent=/Users/naveed/.pub-cache/hosted/pub.dev/android_intent-2.0.2/
+connectivity=/Users/naveed/.pub-cache/hosted/pub.dev/connectivity-2.0.2/
+connectivity_for_web=/Users/naveed/.pub-cache/hosted/pub.dev/connectivity_for_web-0.3.1+4/
+connectivity_macos=/Users/naveed/.pub-cache/hosted/pub.dev/connectivity_macos-0.1.0+7/
+device_apps=/Users/naveed/.pub-cache/hosted/pub.dev/device_apps-2.2.0/
+firebase_auth=/Users/naveed/.pub-cache/hosted/pub.dev/firebase_auth-0.14.0+9/
+firebase_core=/Users/naveed/.pub-cache/hosted/pub.dev/firebase_core-0.4.2+2/
+firebase_database=/Users/naveed/.pub-cache/hosted/pub.dev/firebase_database-3.1.6/
+google_sign_in=/Users/naveed/.pub-cache/hosted/pub.dev/google_sign_in-4.5.9/
+google_sign_in_web=/Users/naveed/.pub-cache/hosted/pub.dev/google_sign_in_web-0.9.2/
+path_provider=/Users/naveed/.pub-cache/hosted/pub.dev/path_provider-0.4.1/
+path_provider_linux=/Users/naveed/.pub-cache/hosted/pub.dev/path_provider_linux-0.0.1+2/
+path_provider_windows=/Users/naveed/.pub-cache/hosted/pub.dev/path_provider_windows-0.0.5/
+rate_my_app=/Users/naveed/.pub-cache/hosted/pub.dev/rate_my_app-0.7.2/
+shared_preferences=/Users/naveed/.pub-cache/hosted/pub.dev/shared_preferences-0.5.12+4/
+shared_preferences_linux=/Users/naveed/.pub-cache/hosted/pub.dev/shared_preferences_linux-0.0.2+4/
+shared_preferences_macos=/Users/naveed/.pub-cache/hosted/pub.dev/shared_preferences_macos-0.0.1+11/
+shared_preferences_web=/Users/naveed/.pub-cache/hosted/pub.dev/shared_preferences_web-0.1.2+7/
+shared_preferences_windows=/Users/naveed/.pub-cache/hosted/pub.dev/shared_preferences_windows-0.0.2+3/
+url_launcher=/Users/naveed/.pub-cache/hosted/pub.dev/url_launcher-6.0.5/
+url_launcher_linux=/Users/naveed/.pub-cache/hosted/pub.dev/url_launcher_linux-2.0.3/
+url_launcher_macos=/Users/naveed/.pub-cache/hosted/pub.dev/url_launcher_macos-2.0.3/
+url_launcher_web=/Users/naveed/.pub-cache/hosted/pub.dev/url_launcher_web-2.0.12/
+url_launcher_windows=/Users/naveed/.pub-cache/hosted/pub.dev/url_launcher_windows-2.0.2/

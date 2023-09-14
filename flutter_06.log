@@ -1,0 +1,84 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --target lib/main.dart -d emulator-5554 --dart-define=flutter.inspector.structuredErrors=true --start-paused --web-server-debug-protocol ws --web-server-debug-backend-protocol ws --web-allow-expose-url
+
+## exception
+
+StateError: Bad state: Future already completed
+
+```
+#0      _AsyncCompleter.complete (dart:async/future_impl.dart:45:31)
+#1      ResidentRunner.waitForExtension.<anonymous closure> (package:flutter_tools/src/resident_runner.dart:1425:19)
+#2      _rootRunUnary (dart:async/zone.dart:1362:47)
+#3      _CustomZone.runUnary (dart:async/zone.dart:1265:19)
+#4      _CustomZone.runUnaryGuarded (dart:async/zone.dart:1170:7)
+#5      _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:341:11)
+#6      _DelayedData.perform (dart:async/stream_impl.dart:591:14)
+#7      _StreamImplEvents.handleNext (dart:async/stream_impl.dart:706:11)
+#8      _PendingEvents.schedule.<anonymous closure> (dart:async/stream_impl.dart:663:7)
+#9      _rootRun (dart:async/zone.dart:1346:47)
+#10     _CustomZone.run (dart:async/zone.dart:1258:19)
+#11     _CustomZone.runGuarded (dart:async/zone.dart:1162:7)
+#12     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1202:23)
+#13     _rootRun (dart:async/zone.dart:1354:13)
+#14     _CustomZone.run (dart:async/zone.dart:1258:19)
+#15     _CustomZone.runGuarded (dart:async/zone.dart:1162:7)
+#16     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1202:23)
+#17     _microtaskLoop (dart:async/schedule_microtask.dart:40:21)
+#18     _startMicrotaskLoop (dart:async/schedule_microtask.dart:49:5)
+#19     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:120:13)
+#20     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:185:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel master, 1.26.0-13.0.pre.99, on macOS 11.1 20C69 darwin-x64, locale en-AE)
+    • Flutter version 1.26.0-13.0.pre.99 at /Users/NAVEED/Documents/GitHub/flutter
+    • Framework revision 5b0f69f961 (3 days ago), 2021-01-21 07:49:03 -0500
+    • Engine revision 30bb7452f8
+    • Dart version 2.12.0 (build 2.12.0-247.0.dev)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    • Android SDK at /Users/NAVEED/Library/Android/sdk
+    • Platform android-30, build-tools 30.0.3
+    • Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6915495)
+    • All Android licenses accepted.
+
+[✗] Xcode - develop for iOS and macOS
+    ✗ Xcode installation is incomplete; a full installation is necessary for iOS development.
+      Download at: https://developer.apple.com/xcode/download/
+      Or install Xcode via the App Store.
+      Once installed, run:
+        sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+        sudo xcodebuild -runFirstLaunch
+    ✗ CocoaPods not installed.
+        CocoaPods is used to retrieve the iOS and macOS platform side's plugin code that responds to your plugin usage on the Dart side.
+        Without CocoaPods, plugins will not work on iOS or macOS.
+        For more info, see https://flutter.dev/platform-plugins
+      To install see https://guides.cocoapods.org/using/getting-started.html#installation for instructions.
+
+[✗] Chrome - develop for the web (Cannot find Chrome executable at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome)
+    ! Cannot find Chrome. Try setting CHROME_EXECUTABLE to a Chrome executable.
+
+[✓] Android Studio (version 4.1)
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6915495)
+
+[✓] VS Code (version 1.52.1)
+    • VS Code at /Applications/Visual Studio Code.app/Contents
+    • Flutter extension version 3.18.1
+
+[✓] Connected device (1 available)
+    • sdk gphone x86 arm (mobile) • emulator-5554 • android-x86 • Android 11 (API 30) (emulator)
+
+! Doctor found issues in 2 categories.
+```

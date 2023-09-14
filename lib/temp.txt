@@ -1,0 +1,48 @@
+RateMyApp _rateMyApp = RateMyApp(
+    preferencesPrefix: "rateMyApp_",
+    minDays: 3,
+    minLaunches: 7,
+    remindDays: 2,
+    remindLaunches: 5,
+  );
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    _rateMyApp.init().then((_) {
+      //if (_rateMyApp.shouldOpenDialog) {
+      _rateMyApp.showStarRateDialog(
+        context,
+        title: "title",
+        message: "message",
+        dialogStyle: DialogStyle(
+          titleAlign: TextAlign.center,
+          messageAlign: TextAlign.center,
+          messagePadding: EdgeInsets.only(bottom: 20.0),
+        ),
+        starRatingOptions: StarRatingOptions(),
+        actionsBuilder: (context, stars) {
+          return [
+            FlatButton(
+              child: Text("ok"),
+              onPressed: () {
+                if (stars != null) {
+                  _rateMyApp.doNotOpenAgain = true;
+                  _rateMyApp.save().then((v) => Navigator.pop(context));
+
+                  if (stars <= 3) {
+                    print("navigate to contact us screen");
+                  } else if (stars <= 5) {
+                    print("leave a review");
+                  }
+                } else {
+                  Navigator.pop(context);
+                }
+              },
+            ),
+          ];
+        },
+      );
+      //}
+    });
+  }
