@@ -5,6 +5,7 @@ A Mobile Application used to track amazon prices which will then inform the user
 ## Technology Stacks USED
 
 - FLUTTER
+- FireBase (Authentication)
 - FLASK API
 - python
 - Webscrapping
